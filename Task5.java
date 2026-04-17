@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LargestNumber {
+public class Task5 {
     public static void main(String... args) {
         Scanner scanner  = new Scanner(System.in);
 
@@ -23,7 +23,7 @@ public class LargestNumber {
                 largest = num3;
             }
 
-            System.out.println("Pinaka malaking numero ay: " + largest);
+            System.out.println("The Largest number is: " + largest);
         
         scanner.close();
         }
