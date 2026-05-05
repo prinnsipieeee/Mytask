@@ -11,7 +11,6 @@ class Point {
         System.out.println("(" + x + "," + y + ")");
     }
 
-    // Ito yung scale method na kailangan mo
     public void scale() {
         this.x /= 2;
         this.y /= 2;
@@ -20,10 +19,8 @@ class Point {
 
 public class Task12 {
     public static void main(String[] args) {
-        // Gumawa ng point sa (32, 32)
         Point p = new Point(32, 32);
 
-        // Loop para i-scale ng 5 beses
         for (int i = 0; i < 5; i++) {
             p.scale();
             p.print();

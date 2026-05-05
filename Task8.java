@@ -1,7 +1,6 @@
 public class Task8 {
 
     public static void main(String[] args) {
-        // Example usage as per the prompt instructions (4, 5, 10)
         int totalSum = calculateCumulativeSums(4, 5, 10);
         
         System.out.println("\n----------------------------------");

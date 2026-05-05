@@ -12,7 +12,7 @@ class B extends abstractClass {
     }
 }
 
-// Dito ilalagay ang implementation para sa Class C
+
 class C extends abstractClass {
     @Override
     void abstractMethod() {
@@ -22,12 +22,10 @@ class C extends abstractClass {
 
 public class Task14 {
     public static void main(String args[]) {
-        // Para kay B
         B b = new B();
         b.abstractMethod();
         b.concreteMethod();
         
-        // Para kay C
         C c = new C();
         c.abstractMethod();
         c.concreteMethod();
